@@ -1,5 +1,13 @@
 # northwind.network
 
-Northwind network operations helpers (browse in portal Collections)
+Collection maintained by **Northwind Network Engineering**.
 
-Internal Northwind collection for the Self-Service Automation Portal / EE Builder lab.
+Provides configuration backup and light circuit-health checks for devices
+managed through the Network inventory and portal job templates.
+
+## Roles
+
+| Role | Purpose |
+|------|---------|
+| `northwind.network.backup_device_config` | Pull running-config and store under a dated path |
+| `northwind.network.circuit_health` | Sanity-check interface operational status |
