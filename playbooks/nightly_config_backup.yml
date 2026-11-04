@@ -1,6 +1,6 @@
 ---
-- name: Nightly Northwind network configuration backup
+- name: Nightly Parasol network configuration backup
   hosts: network
   gather_facts: false
   roles:
-    - role: northwind.network.backup_device_config
+    - role: parasol.network.backup_device_config
