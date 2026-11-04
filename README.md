@@ -1,6 +1,6 @@
-# northwind.network
+# parasol.network
 
-Collection maintained by **Northwind Network Engineering**.
+Collection maintained by **Parasol Network Engineering**.
 
 Provides configuration backup and light circuit-health checks for devices
 managed through the Network inventory and portal job templates.
@@ -9,5 +9,5 @@ managed through the Network inventory and portal job templates.
 
 | Role | Purpose |
 |------|---------|
-| `northwind.network.backup_device_config` | Pull running-config and store under a dated path |
-| `northwind.network.circuit_health` | Sanity-check interface operational status |
+| `parasol.network.backup_device_config` | Pull running-config and store under a dated path |
+| `parasol.network.circuit_health` | Sanity-check interface operational status |
